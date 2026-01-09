@@ -107,3 +107,82 @@ print(my_str)
 # [start:stop:step]
 visa_app = 'Applicationfee'
 print(visa_app[0:10:2])
+
+#working with integers and floats
+# addition using +
+# subtraction using -
+# multiplication using *
+# division using /
+# pwerforming basic operations bwteen integers and floats returns a flaot 
+int_1 = 10
+int_2 = 3
+floor_division = int_1 // int_2
+print(floor_division)  # Output: 3
+
+# augumented assignment operators
+# syntax: variable operator= value 
+# which means variable = variable <operator> value
+my_var = 15
+my_var += 5  # Equivalent to my_var = my_var + 5
+print(my_var)  # Output: 20
+
+total_pages = 42
+total_pages //= 4
+print(total_pages)  # Output: 10
+
+greet = 'Hello'
+greet += ' my dear'
+print(greet)  # Output: Hello my dear
+
+# you can only use + and * operators with strings
+repeat_str = 'ha' * 3
+print(repeat_str)  # Output: hahaha
+
+# booleans and conditionals
+# if condition:
+#  pass   # code to execute if condition is True
+# pass serves as a placeholder for code that will be added later
+# In python, code blocks are determined by indentation
+
+age = 16
+if age >= 18:
+    print('O ti ripe lati dibo')  # Output: O ti ripe lati dibo
+else:
+    print('gba ile yin lor')
+
+# elif statement for multiple conditions
+age = 20
+
+if age >= 65:
+    print('O le gba ifowopamosi agbalagba')
+elif age >= 18:
+    print('you never old reach')
+else:
+    print('du sind kind')
+
+# truthy and falsy values
+# Falsy values in Python include: False, None, 0, 0.0, '', [], {}, set(), range(0)
+# Everything else is considered truthy
+# boolean operators: and, or, not
+is_raining = True
+has_umbrella = False
+if is_raining and has_umbrella:
+    print('You can go outside.')
+else:
+    print('Better stay indoors.')
+
+# use or to check if at least one condition is true
+is_weekend = True
+has_homework = False
+if is_weekend or has_homework:
+    print('You can relax or do your homework.')
+else:
+    print('Time to study!') 
+
+# use not to invert a boolean value, it returns True if the value is False and vice versa
+is_sunny = False
+if not is_sunny:
+    print('It\'s not sunny outside.')
+else:
+    print('Enjoy the sunshine!')
+
