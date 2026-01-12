@@ -197,3 +197,13 @@ def first_function():
 first_function()
 def calculate_sum(a,b):
     print(a + b)
+calculate_sum(3, 7)
+
+# return keyword to send back a value from a function
+my_sum = calculate_sum(10, 15)
+print(my_sum)  # python returns None if return is not expliitly used
+def calculate_sum(a, b):
+    return a + b
+
+my_sum = calculate_sum(9, 76)
+print(my_sum)
