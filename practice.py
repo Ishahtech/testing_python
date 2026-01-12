@@ -186,3 +186,14 @@ if not is_sunny:
 else:
     print('Enjoy the sunshine!')
 
+# functions and scopes
+# input() function to get user input as a string
+name = input('Enter your damn name')
+print('hello', name)
+
+# custom functions using def keyword
+def first_function():
+    print('now, we write functions and fight crimes')
+first_function()
+def calculate_sum(a,b):
+    print(a + b)
