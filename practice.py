@@ -207,3 +207,13 @@ def calculate_sum(a, b):
 
 my_sum = calculate_sum(9, 76)
 print(my_sum)
+
+# scope: local, enclosing, global and built-in scopes (LEGB)
+# use global keyword to modify a global variable inside a function
+# use nonlocal keyword to modify a variable in the enclosing scope
+counter = 0  # global scope
+def increment_counter():
+    global counter
+    counter += 1
+increment_counter()
+print(counter)  # Output: 1
