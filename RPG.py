@@ -27,7 +27,7 @@ print(create_character('ren', 4, 2, 1))
 
 # return f"""Name: {charname}
 #STR: {full_dot * strength}{empty_dot * (10 - strength)}
-I#INT: {full_dot * intelligence}{empty_dot * (10 - intelligence)}
+#INT: {full_dot * intelligence}{empty_dot * (10 - intelligence)}
 #CHA: {full_dot * charisma}{empty_dot * (10 - charisma)}"""     
 
 
