@@ -217,3 +217,12 @@ def increment_counter():
     counter += 1
 increment_counter()
 print(counter)  # Output: 1
+#a rough patch to explain commit messages
+counter = 0
+def outer_function():
+    counter = 10  # enclosing scope
+    def inner_function():
+        nonlocal counter
+        counter += 5
+    inner_function()
+    print(counter)  # Output: 15
